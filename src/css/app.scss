@@ -1,1 +1,17 @@
-// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.font-nurito{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.text-bs-primary{
+  color: $bs-primary;
+}
+.text-bs-secondary{
+  color: $bs-secondary;
+}
